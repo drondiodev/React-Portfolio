@@ -1,51 +1,58 @@
+import astro from "../../assets/astro.png";
+import coming from "../../assets/coming.png";
+import resume from "../../assets/resume.png";
+import qrcode from "../../assets/qrcode.png";
+
+
+
 
 export const projectsData = [
   {
     id: 1,
-    // image: Work7,
-    title: "Projet 1",
-    category: "application web",
-    deploymentLink: "/",
+    image: astro,
+    title: "Portfolio made with Astro",
+    category: "site web",
+    deploymentLink: "https://github.com/drondiodev/portfolio",
   },
   {
     id: 2,
-    // image: Work1,
-    title: "Projet 2",
-    category: "application web",
-    deploymentLink: "/",
+    image: resume,
+    title: "Mon CV en HTML & SCSS",
+    category: "site web",
+    deploymentLink: "https://github.com/drondiodev/drondiodev.github.io",
   },
   {
     id: 3,
-    // image: Work2,
-    title: "Projet 3",
-    category: "application web",
-    deploymentLink: "/",
+    image: qrcode,
+    title: "Qr-code-component",
+    category: "site web",
+    deploymentLink: "https://github.com/drondiodev/QR-code-component",
   },
   {
     id: 4,
-    // image: Work6,
-    title: "Projet 4",
+    image: coming,
+    title: "Projet",
     category: "application web",
     deploymentLink: "/",
   },
   {
     id: 5,
-    // image: Work3,
-    title: "Projet 5",
+    image: coming,
+    title: "Projet",
     category: "application web",
     deploymentLink: "/",
   },
   {
     id: 6,
-    // image: Work4,
-    title: "Projet 6",
+    image: coming,
+    title: "Projet",
     category: "site web",
     deploymentLink: "/",
   },
   {
     id: 7,
-    // image: Work5,
-    title: "Projet 7",
+    image: coming,
+    title: "Projet",
     category: "site web",
     deploymentLink: "/",
   },
