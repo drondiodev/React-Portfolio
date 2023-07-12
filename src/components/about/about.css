@@ -8,7 +8,7 @@
         width: 200px;
         height: 200px;
         background: linear-gradient(180deg,
-                rgb(13, 7, 121) 0%,
+                var(--primary) 0%,
                 hsla(258, 41%, 8%, 0.2) 100%);
         border-radius: 50%;
         overflow: hidden;
@@ -22,8 +22,7 @@
     }
 
     .about__border {
-        border: 3.5px solid #1508cb;
-        ;
+        border: 3.5px solid var(--primary);
         justify-self: center;
         width: 230px;
         height: 230px;

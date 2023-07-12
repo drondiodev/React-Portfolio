@@ -16,7 +16,7 @@
 }
 
 .work__item:hover {
-    background-color: var(--title-color);
+    background-color: var(--primary);
     color: var(--container-color);
 }
 
@@ -31,7 +31,7 @@
 }
 
 .hero-title span {
-    color: hsl(267, 86%, 45%);
+    color: var(--primary);
     font-weight: 300;
 }
 
@@ -80,7 +80,7 @@
 
 
 .active-work {
-    background-color: var(--title-color);
+    background-color: var(--primary);
     color: var(--container-color);
 }
 

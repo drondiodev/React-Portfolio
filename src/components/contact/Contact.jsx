@@ -23,26 +23,29 @@ const Contact = () => {
 
         <div className="contact__container container grid">
             <div className="contact__content">
-            <div className="contact__info">
-                <div className="contact__card">
-                <i className="bx bx-mail-send contact__card-icon"></i>
+                <div className="contact__info">
+                    <div className="contact__card">
+                    <i className="bx bx-mail-send contact__card-icon"></i>
 
-                <h3 className="contact__card-title">Mail</h3>
-                <span className="contact__card-data">
-                    drondiodev@icloud.com
-                </span>
+                    <h3 className="contact__card-title">Mail</h3>
+                    <span className="contact__card-data">
+                        drondiodev@icloud.com
+                    </span>
 
-                <a
-                    href="mailto:drondiodev@icloud.com"
-                    className="contact__button" target="_blank" rel="noreferrer"
-                >
-                    
-                </a>
-                </div>
+                    <a
+                        href="mailto:drondiodev@icloud.com"
+                        className="contact__button" target="_blank" rel="noreferrer"
+                    >
+                        
+                    </a>
+                    </div>
             </div>
-            </div>
 
-            <div className="contact__content">
+
+
+
+
+
             <h3 className="contact__title">Que puis-je faire pour vous ?</h3>
             <form ref={form} onSubmit={sendEmail} className="contact__form">
                 <div className="contact__form-div">

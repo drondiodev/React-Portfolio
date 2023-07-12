@@ -16,12 +16,13 @@
 }
 
 .nav__logo {
+    color: var(--primary);
     font-size: var(--h3-font-size);
 }
 
 
 .nav__logo .nav__toggle {
-    color: #262626;
+    color: #2071e7;
     font-weight: var(--font-medium);
 }
 
@@ -50,7 +51,8 @@
 
 .active-link,
 .nav__link:hover {
-    border-bottom: 2px solid rgb(73, 137, 234);
+    border-bottom: 2px solid var(--primary);
+    ;
 }
 
 /* For medium devices */

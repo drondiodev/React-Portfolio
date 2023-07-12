@@ -45,7 +45,7 @@
 }
 
 .footer__social i:hover {
-    color: #1508cb;
+    color: var(--primary);
 }
 
 .footer__copy {
