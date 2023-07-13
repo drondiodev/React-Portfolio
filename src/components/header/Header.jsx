@@ -4,8 +4,8 @@ import "./header.css";
 const Header = () => {
     const [Toggle, showMenu] = useState(false);
     return (
-        <header className="header">
-            <nav className="nav container">
+        <header role="banner" className="header">
+            <nav className="nav container" >
                 <a href="index.html" className="nav__logo"><span>&lt;</span> Drondiodev. /<span>&gt;</span></a>
                 <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
                     <ul className="nav__list grid">

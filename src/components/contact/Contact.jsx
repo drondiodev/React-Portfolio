@@ -28,12 +28,12 @@ const Contact = () => {
                     <i className="bx bx-mail-send contact__card-icon"></i>
 
                     <h3 className="contact__card-title">Mail</h3>
-                    <span className="contact__card-data">
-                        drondiodev@icloud.com
+                    <span aria-label="adresse email" alt="drondiodev@icloud.com" className="contact__card-data">
+                    drondiodev@icloud.com
                     </span>
 
                     <a
-                        href="mailto:drondiodev@icloud.com"
+                        href="mailto:drondiodev@icloud.com" title="m'envoyer un mail"
                         className="contact__button" target="_blank" rel="noreferrer"
                     >
                         
@@ -49,32 +49,38 @@ const Contact = () => {
             <h3 className="contact__title">Que puis-je faire pour vous ?</h3>
             <form ref={form} onSubmit={sendEmail} className="contact__form">
                 <div className="contact__form-div">
-                <label className="contact__form-tag">Nom</label>
+                <label htmlFor="name" className="contact__form-tag" >Nom (obligatoire)</label>
                 <input
                     type="name"
+                    id="name"
                     name="name"
                     className="contact__form-input"
                     placeholder="Entrez votre nom"
+                    required
                 />
                 </div>
                 <div className="contact__form-div">
-                <label className="contact__form-tag">E-mail</label>
+                <label htmlFor="email" className="contact__form-tag">E-mail (obligatoire)</label>
                 <input
                     type="email"
+                    id="email"
                     name="email"
                     className="contact__form-input"
                     placeholder="Entrez votre adresse e-mail"
+                    required
                 />
                 </div>
 
                 <div className="contact__form-div contact__form-area">
-                <label className="contact__form-tag">Message</label>
+                <label htmlFor="message" className="contact__form-tag">Message (obligatoire)</label>
                 <textarea
                     name="query"
+                    id="message"
                     cols="30"
                     rows="10"
                     className="contact__form-input"
                     placeholder="Entrez votre message ici"
+                    required
                 ></textarea>
                 </div>
                 <button className="button">
