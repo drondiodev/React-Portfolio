@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./qualifications.css";
 const Qualifications = () => {
-    const [toggleState, setToggleState] = useState(0);
+    const [toggleState, setToggleState] = useState(2);
     const toggleTab = (index) => {
         setToggleState(index);
     };
@@ -100,7 +100,7 @@ const Qualifications = () => {
                     DÉVELOPPEUR WEB ET ACCESSIBILITÉ
                     </h3>
                     <span className="qualification__subtitle">
-                    Projet tutoré en partenariat avec l'entreprise ATI4 GROUP
+                    Projet tutoré en partenariat avec l&pos;entreprise ATI4 GROUP
                     </span>
                     <div className="qualification__calendar">
                     <i className="uil uil-calendar-alt"></i> 06/2023 - 08/2023
