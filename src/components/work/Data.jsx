@@ -1,7 +1,9 @@
-import astro from "../../assets/astro.png";
+import projetCV from "../../assets/projetCV.png";
+import projetASTRO from "../../assets/projetASTRO.png";
+import projetQRCODE from "../../assets/projetQRCODE.png";
 import coming from "../../assets/coming.png";
-import resume from "../../assets/resume.png";
-import qrcode from "../../assets/qrcode.png";
+
+
 
 
 
@@ -9,52 +11,54 @@ import qrcode from "../../assets/qrcode.png";
 export const projectsData = [
   {
     id: 1,
-    image: astro,
-    title: "Portfolio made with Astro",
+    image: projetASTRO,
+    title: "Exemple de portfolio fait avec Astro",
     category: "site web",
-    deploymentLink: "https://github.com/drondiodev/portfolio",
+    subtitle: 'Stack utilisée :',
+    repo: "https://github.com/drondiodev/portfolio",
+    technos: [
+            {
+                stack: 'Astro',
+            },
+            {
+                stack: 'React'
+            },
+        ]
   },
   {
     id: 2,
-    image: resume,
+    image: projetCV,
     title: "Mon CV en HTML & SCSS",
+    subtitle: 'Stack utilisée :',
     category: "site web",
-    deploymentLink: "https://github.com/drondiodev/drondiodev.github.io",
+    repo: "https://github.com/drondiodev/drondiodev.github.io",
+    technos: [
+            {
+                stack: 'HTML',
+            },
+            {
+                stack: 'SCSS'
+            },
+            {
+                stack: 'Parcel'
+            },
+        ]
   },
   {
     id: 3,
-    image: qrcode,
+    image: projetQRCODE,
     title: "Qr-code-component",
+    subtitle: 'Stack utilisée :',
     category: "site web",
-    deploymentLink: "https://github.com/drondiodev/QR-code-component",
-  },
-  {
-    id: 4,
-    image: coming,
-    title: "Projet",
-    category: "application web",
-    deploymentLink: "/",
-  },
-  {
-    id: 5,
-    image: coming,
-    title: "Projet",
-    category: "application web",
-    deploymentLink: "/",
-  },
-  {
-    id: 6,
-    image: coming,
-    title: "Projet",
-    category: "site web",
-    deploymentLink: "/",
-  },
-  {
-    id: 7,
-    image: coming,
-    title: "Projet",
-    category: "site web",
-    deploymentLink: "/",
+    repo: "https://github.com/drondiodev/QR-code-component",
+    technos: [
+            {
+                stack: 'HTML',
+            },
+            {
+                stack: 'CSS'
+            },
+        ]
   },
 ];
 

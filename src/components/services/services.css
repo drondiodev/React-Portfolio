@@ -1,5 +1,5 @@
 .services__container {
-    grid-template-columns: repeat(2, max-content);
+    grid-template-columns: repeat(2, 300px);
     gap: 3rem;
     justify-content: center;
 }
@@ -134,7 +134,7 @@
 /* For medium devices */
 @media screen and (max-width: 768px) {
     .services__container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 180px);
     }
 
     .services__content {

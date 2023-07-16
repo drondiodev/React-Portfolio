@@ -8,7 +8,7 @@ const Backend = () => {
 
             <div className="skills__group">
             <div className="skills__data">
-                <i className="bx bx-badge-check"></i>
+                <i className="devicon-nodejs-plain skills__icon"></i>
 
                 <div>
                 <h3 className="skills__name">NodeJs</h3>
@@ -16,7 +16,7 @@ const Backend = () => {
             </div>
 
             <div className="skills__data">
-                <i className="bx bx-badge-check"></i>
+                <i className="devicon-express-original skills__icon"></i>
 
                 <div>
                 <h3 className="skills__name">ExpressJS</h3>
@@ -26,7 +26,7 @@ const Backend = () => {
 
             <div className="skills__group">
             <div className="skills__data">
-                <i className="bx bx-badge-check"></i>
+                <i className="devicon-postgresql-plain skills__icon"></i>
 
                 <div>
                 <h3 className="skills__name">PostgreSQL</h3>
@@ -34,7 +34,7 @@ const Backend = () => {
             </div>
 
             <div className="skills__data">
-                <i className="bx bx-badge-check"></i>
+                <i className="devicon-sequelize-plain skills__icon"></i>
 
                 <div>
                 <h3 className="skills__name">Sequelize</h3>

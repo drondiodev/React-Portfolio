@@ -19,18 +19,6 @@
   --primary2: #2071e7;
   --primary: #254F98;
 
-  /* 
-  :root {
-    --font-family: "Muli", sans-serif;
-    --light: #00c3ff;
-    --primary: #2071e7;
-    --dark: #2980b9;
-    --text: #333;
-    --background: #fafafa;
-    --hint: #999;
-    --border: #ddd;
-  } */
-
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins",
@@ -177,7 +165,7 @@ img {
 }
 
 .button:hover {
-  background-color: var(--title-color-dark);
+  background-color: #16216b;
 }
 
 .button__icon {

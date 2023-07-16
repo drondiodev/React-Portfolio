@@ -8,19 +8,19 @@ const Frontend = () => {
 
                 <div className="skills__group">
                     <div className="skills__data">
-                        <i className="bx bx-badge-check"></i>
+                        <i className="devicon-html5-plain skills__icon"></i>
                         <div>
                         <h3 className="skills__name">HTML</h3>
                         </div>
                     </div>
                     <div className="skills__data">
-                        <i className="bx bx-badge-check"></i>
+                        <i className="devicon-css3-plain skills__icon"></i>
                         <div>
-                            <h3 className="skills__name">SCSS</h3>
+                            <h3 className="skills__name">CSS</h3>
                         </div>
                     </div>
                     <div className="skills__data">
-                        <i className="bx bx-badge-check"></i>
+                        <i className="devicon-javascript-plain skills__icon"></i>
                         <div>
                         <h3 className="skills__name">JavaScript</h3>
                         </div>
@@ -28,19 +28,19 @@ const Frontend = () => {
                 </div>
                 <div className="skills__group">
                     <div className="skills__data">
-                        <i className="bx bx-badge-check"></i>
+                        <i className="devicon-react-original skills__icon"></i>
                         <div>
                         <h3 className="skills__name">React</h3>
                         </div>
                     </div>
                     <div className="skills__data">
-                        <i className="bx bx-badge-check"></i>
+                        <i className="devicon-jamstack-original skills__icon"></i>
                         <div>
                         <h3 className="skills__name">Jamstack</h3>
                         </div>
                     </div>
                     <div className="skills__data">
-                        <i className="bx bx-badge-check"></i>
+                        <i className="devicon-git-plain skills__icon"></i>
                         <div>
                         <h3 className="skills__name">Git/GitHub</h3>
                         </div>

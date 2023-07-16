@@ -3,7 +3,7 @@
 }
 
 .home__content {
-    grid-template-columns: 116px repeat(2, 1fr);
+    grid-template-columns: 116px 1fr;
     padding-top: 5.5rem;
     column-gap: 2rem;
     align-items: center;
@@ -70,7 +70,7 @@
 
 @media screen and (max-width: 992px) {
     .home__content {
-        grid-template-columns: 100px repeat(2, 1fr);
+        grid-template-columns: 100px 1fr;
         column-gap: 1.25rem;
     }
 
@@ -108,7 +108,7 @@
 /* For medium devices */
 @media screen and (max-width: 768px) {
     .home__content {
-        grid-template-columns: 0.5fr 3fr;
+        grid-template-columns: 1fr;
         padding-top: 3.5rem;
     }
 
@@ -127,9 +127,13 @@
         height: 200px;
     }
 
-    .home__scroll,
-    .home__social {
+    .home__scroll {
         display: none;
+    }
+
+    .home__social {
+        display: flex;
+        justify-content: space-evenly;
     }
 }
 

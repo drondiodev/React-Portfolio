@@ -13,7 +13,8 @@ const Home = () => {
                 </div>
                 {/* <ScrollDown/> */}
             </div>
-        </section>
+            </section>
+
     )
 }
 
