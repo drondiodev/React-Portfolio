@@ -133,7 +133,7 @@ img {
 .section__subtitle {
   display: block;
   font-size: var(--small-font-size);
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
   text-transform: uppercase;
 }
 
@@ -151,7 +151,7 @@ img {
 
 .grid {
   display: grid;
-  gap: 1.5rem;
+  /* gap: 1.5rem; */
 }
 
 /*=============== BUTTONS ===============*/
