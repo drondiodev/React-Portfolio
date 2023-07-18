@@ -3,6 +3,7 @@ import React from "react";
 const Frontend = () => {
     return (
         <div className="skills__content">
+            <i className="uil uil-arrow skills__icon"></i>
         <h3 className="skills__title">Frontend</h3>
             <div className="skills__box">
 

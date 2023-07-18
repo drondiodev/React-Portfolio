@@ -1,7 +1,7 @@
 import projetCV from "../../assets/projetCV.png";
 import projetASTRO from "../../assets/projetASTRO.png";
 import projetQRCODE from "../../assets/projetQRCODE.png";
-import coming from "../../assets/coming.png";
+// import coming from "../../assets/coming.png";
 
 
 
@@ -18,10 +18,10 @@ export const projectsData = [
     repo: "https://github.com/drondiodev/portfolio",
     technos: [
             {
-                stack: 'Astro',
+                stack: '#Astro',
             },
             {
-                stack: 'React'
+                stack: '#React'
             },
         ]
   },
@@ -34,13 +34,13 @@ export const projectsData = [
     repo: "https://github.com/drondiodev/drondiodev.github.io",
     technos: [
             {
-                stack: 'HTML',
+                stack: '#Html',
             },
             {
-                stack: 'SCSS'
+                stack: '#Scss'
             },
             {
-                stack: 'Parcel'
+                stack: '#Parcel'
             },
         ]
   },
@@ -53,10 +53,10 @@ export const projectsData = [
     repo: "https://github.com/drondiodev/QR-code-component",
     technos: [
             {
-                stack: 'HTML',
+                stack: '#Html',
             },
             {
-                stack: 'CSS'
+                stack: '#Css'
             },
         ]
   },

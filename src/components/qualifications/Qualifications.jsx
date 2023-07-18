@@ -100,7 +100,7 @@ const Qualifications = () => {
                     DÉVELOPPEUR WEB ET ACCESSIBILITÉ
                     </h3>
                     <span className="qualification__subtitle">
-                    Projet tutoré en partenariat avec l&pos;entreprise ATI4 GROUP
+                    Projet tutoré en partenariat avec l&apos;entreprise ATI4 GROUP
                     </span>
                     <div className="qualification__calendar">
                     <i className="uil uil-calendar-alt"></i> 06/2023 - 08/2023
