@@ -59,7 +59,7 @@ la résolution de problèmes.</p>
 
                     <li className="services__modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
-                    <p className="services__modal-info">Organisé, je sais prendre en compte les priorités, prendre l'initialive si nécessaire et travailler en autonomie.</p>
+                    <p className="services__modal-info">Organisé, je sais prendre en compte les priorités, prendre l'initiative si nécessaire et travailler en autonomie.</p>
                     </li>
                 </ul>
                 </div>
