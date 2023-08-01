@@ -35,7 +35,7 @@ const Header = () => {
                             </a>
                         </li>
                         <li className="nav_item">
-                            <a href="https://cv-drondiodev.netlify.app/" target="_blank" rel="noreferrer" className="nav__link">
+                            <a href="https://cv-drondiodev.netlify.app/" target="" rel="noreferrer" className="nav__link">
                                 <i className="uil uil-file nav__icon"></i> CV
                             </a>
                         </li>

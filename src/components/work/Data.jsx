@@ -12,7 +12,7 @@ export const projectsData = [
   {
     id: 1,
     image: coming,
-    title: "<Projet tutoré/> Next Level, Full Stack Next.JS 13 APP",
+    title: "<Projet tutoré/>, Full Stack Next.JS 13 | Event QrCode Platform | Application créée pour des devs, par des devs.",
     category: "site web",
     subtitle: 'Stack utilisée :',
     repo: "",
