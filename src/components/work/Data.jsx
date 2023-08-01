@@ -1,7 +1,7 @@
 import projetCV from "../../assets/projetCV.png";
 import projetASTRO from "../../assets/projetASTRO.png";
 import projetQRCODE from "../../assets/projetQRCODE.png";
-// import coming from "../../assets/coming.png";
+import coming from "../../assets/coming.png";
 
 
 
@@ -11,6 +11,28 @@ import projetQRCODE from "../../assets/projetQRCODE.png";
 export const projectsData = [
   {
     id: 1,
+    image: coming,
+    title: "<Projet tutoré/> Next Level, Full Stack Next.JS 13 APP",
+    category: "site web",
+    subtitle: 'Stack utilisée :',
+    repo: "",
+    technos: [
+            {
+                stack: '#Next.JS'
+            },
+            {
+                stack: '#TypeScript'
+            },
+            {
+                stack: '#Tailwind CSS'
+            },
+            {
+                stack: '#Prisma'
+            },
+        ]
+  },
+  {
+    id: 2,
     image: projetASTRO,
     title: "Exemple de portfolio fait avec Astro",
     category: "site web",
@@ -18,7 +40,7 @@ export const projectsData = [
     repo: "https://github.com/drondiodev/portfolio",
     technos: [
             {
-                stack: '#Astro',
+                stack: '#Astro'
             },
             {
                 stack: '#React'
@@ -26,7 +48,7 @@ export const projectsData = [
         ]
   },
   {
-    id: 2,
+    id: 3,
     image: projetCV,
     title: "Mon CV en HTML & SCSS",
     subtitle: 'Stack utilisée :',
@@ -34,7 +56,7 @@ export const projectsData = [
     repo: "https://github.com/drondiodev/drondiodev.github.io",
     technos: [
             {
-                stack: '#Html',
+                stack: '#Html'
             },
             {
                 stack: '#Scss'
@@ -45,7 +67,7 @@ export const projectsData = [
         ]
   },
   {
-    id: 3,
+    id: 4,
     image: projetQRCODE,
     title: "Qr-code-component",
     subtitle: 'Stack utilisée :',
