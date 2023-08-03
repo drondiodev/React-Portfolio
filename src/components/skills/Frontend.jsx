@@ -29,12 +29,12 @@ const Frontend = () => {
                         <p className="skills__name">React</p>
                     </li>
                     <li className="skills__data" role="listitem">
-                        <i className="devicon-jamstack-original skills__icon" alt=""></i>
-                        <p className="skills__name">Jamstack</p>
+                        <i className="devicon-nextjs-original skills__icon" alt=""></i>
+                        <p className="skills__name new">Next.js</p>
                     </li>
                     <li className="skills__data" role="listitem">
-                        <i className="devicon-git-plain skills__icon" alt=""></i>
-                        <p className="skills__name">Git/GitHub</p>
+                        <i className="devicon-tailwindcss-plain skills__icon" alt=""></i>
+                        <p className="skills__name new">Tailwindcss</p>
                     </li>
                 </ul>
             </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import prisma from "../../assets/prisma.png";
 
 const Backend = () => {
     return (
@@ -24,8 +25,8 @@ const Backend = () => {
                         <p className="skills__name">PostgreSQL</p>
                     </li>
                     <li className="skills__data" role="listitem">
-                        <i className="devicon-sequelize-plain skills__icon"></i>
-                        <p className="skills__name">Sequelize</p>
+                        <i className="devicon-prisma skills__icon"></i>
+                        <p className="skills__name new">    ... Prisma</p>
                     </li>
                 </ul>
             </div>

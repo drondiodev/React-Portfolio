@@ -48,6 +48,10 @@
     margin-top: -0.25rem;
 }
 
+.new {
+    color: blue;
+}
+
 .skills__name {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
