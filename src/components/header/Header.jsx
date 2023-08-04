@@ -34,13 +34,7 @@ const Header = () => {
                                 <i className="uil uil-message nav__icon"></i> Contact
                             </a>
                         </li>
-                        <li className="nav_item">
-                            <a href="https://cv-drondiodev.netlify.app/" target="" rel="noreferrer" className="nav__link">
-                                <i className="uil uil-file nav__icon"></i> CV
-                            </a>
-                        </li>
                     </ul>
-
                     <i className="uil uil-times nav__close" onClick={() => showMenu(!Toggle)}></i>
                 </div>
                 <div className="nav__toggle" onClick={() => showMenu (!Toggle)}>

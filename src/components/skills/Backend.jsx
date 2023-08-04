@@ -1,5 +1,5 @@
 import React from 'react';
-import prisma from "../../assets/prisma.png";
+
 
 const Backend = () => {
     return (

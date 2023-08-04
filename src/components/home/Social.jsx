@@ -26,6 +26,14 @@ const Social = () => {
                     aria-label="Lien vers ma page Github">
                     <i className="uil uil-github" aria-hidden="true"></i>
                 </a>
+            
+                <a href="https://cv-drondiodev.netlify.app/"
+                    className="resume"
+                    target="_blank" 
+                    rel="noreferrer"
+                    aria-label="Lien vers mon CV">
+                    cv
+                </a>
             </nav>
     );
 };
