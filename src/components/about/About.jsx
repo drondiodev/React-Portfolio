@@ -14,15 +14,21 @@ const About = () => {
                         <img src={Photo} alt="" />
                     </div>
                 </div>
-            <div className="about__data">
-                {/* <Info /> */}
-                    <p className="about__description">
-                    Avec mes 18 années d&apos;expertise en commerce et vente, j&apos;ai pris le virage décisif vers le développement web. 
-                    </p>
-                    <p className="about__description">Mon objectif : créer des sites d&apos;excellence, alliant accessibilité et expérience utilisateur remarquable.</p>
-                    <p className="about__description">Je m&apos;engage à fournir des solutions fonctionnelles et innovantes, adaptées à chaque projet.</p>
+                <div className="about__data">
+                    {/* <Info /> */}
+                        <p className="about__description">
+                        Avec mes 18 années d&apos;expertise en commerce et vente, j&apos;ai pris le virage décisif vers le développement web. 
+                        </p>
+                        <p className="about__description">Mon objectif : créer des sites d&apos;excellence, alliant accessibilité et expérience utilisateur remarquable.</p>
+                        <p className="about__description">Je m&apos;engage à fournir des solutions fonctionnelles et innovantes, adaptées à chaque projet.</p>
                 </div>
-        </div>
+                <div>
+                    <div className="skills__box">
+                        <i className="uil uil-file-download-alt skills__icon" alt=""></i>
+                        <p className="skills__name active-link"><a href="https://drive.google.com/file/d/14f0yVKzF_QJNouBZKFuLd7E46_mh9ge3/view?usp=drive_link" download="Mon CV en pdf">Téléchargez mon CV ici</a></p>
+                    </div>
+                </div>
+            </div>
         </section>
     );
 };

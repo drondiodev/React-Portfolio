@@ -21,8 +21,9 @@
 .skills__box {
     display: flex;
     justify-content: center;
-    column-gap: 2.5rem;
+    column-gap: 1.5rem;
 }
+
 
 .skills__group {
     display: grid;
