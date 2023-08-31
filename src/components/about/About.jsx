@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import Photo from "../../assets/photo2.png";
+import Photo2 from "../../assets/photo2.png";
 // import Info from "./info";
 
 const About = () => {
@@ -11,7 +11,7 @@ const About = () => {
             <div className="about__container container grid">
                 <div className="about__border">
                     <div className="about__perfil">
-                        <img src={Photo} alt="" />
+                        <img src={Photo2} alt="" />
                     </div>
                 </div>
                 <div className="about__data">
