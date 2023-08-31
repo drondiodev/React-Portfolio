@@ -27,7 +27,7 @@ export const projectsData = [
                 stack: '#TailwindCSS'
             },
             {
-                stack: '#Prisma'
+                stack: '#Knex'
             },
         ]
   },
