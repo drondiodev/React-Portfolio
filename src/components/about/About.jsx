@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import Photo from "../../assets/photo.png";
-// import Info from "./info";
+import Info from "./info";
 
 const About = () => {
     return (
@@ -15,7 +15,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="about__data">
-                    {/* <Info /> */}
+                    <Info />
                         <p className="about__description">
                         Avec mes 18 années d&apos;expertise en commerce et vente, j&apos;ai pris le virage décisif vers le développement web. 
                         </p>

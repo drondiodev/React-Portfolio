@@ -24,6 +24,10 @@ const Backend = () => {
                         <i className="devicon-postgresql-plain skills__icon"></i>
                         <p className="skills__name">PostgreSQL</p>
                     </li>
+                    <li className="skills__data" role="listitem">
+                        <i className="devicon-typescript-plain skills__icon"></i>
+                        <p className="skills__name">TypeScript</p>
+                    </li>
                 </ul>
             </div>
         </section>

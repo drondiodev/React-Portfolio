@@ -30,11 +30,11 @@ const Frontend = () => {
                     </li>
                     <li className="skills__data" role="listitem">
                         <i className="devicon-nextjs-original skills__icon" alt=""></i>
-                        <p className="skills__name new">Next.js</p>
+                        <p className="skills__name">Next.js</p>
                     </li>
                     <li className="skills__data" role="listitem">
                         <i className="devicon-tailwindcss-plain skills__icon" alt=""></i>
-                        <p className="skills__name new">Tailwindcss</p>
+                        <p className="skills__name">Tailwindcss</p>
                     </li>
                 </ul>
             </div>

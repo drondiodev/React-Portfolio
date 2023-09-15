@@ -1,18 +1,13 @@
 import projetCV from "../../assets/projetCV.png";
 import projetASTRO from "../../assets/projetASTRO.png";
 import projetQRCODE from "../../assets/projetQRCODE.png";
-import nextjs from "../../assets/nextjs.png";
-
-
-
-
-
+import coming from "../../assets/coming.png";
 
 export const projectsData = [
   {
     id: 1,
-    image: nextjs,
-    title: "IT'S COMING SOON, Full Stack Next.JS 13 | Event QrCode Platform | Application créée pour des devs, par des devs.",
+    image: coming,
+    title: "Full Stack Next.JS 13 | Event QrCode Platform | Application créée pour des devs, par des devs.",
     category: "site web",
     subtitle: 'Stack utilisée :',
     repo: "",
@@ -21,13 +16,16 @@ export const projectsData = [
                 stack: '#Next.JS'
             },
             {
-                stack: '#NextAuth.js'
+                stack: '#TypeScript'
             },
             {
                 stack: '#TailwindCSS'
             },
             {
                 stack: '#Knex'
+            },
+            {
+                stack: '#Docker'
             },
         ]
   },
