@@ -10,7 +10,6 @@ export const projectsData = [
     title: "Full Stack Next.JS 13 | E-commerce Platform",
     category: "application web",
     subtitle: 'Stack utilisée :',
-    repo: "",
     technos: [
             {
                 stack: '#Next.JS 13'
@@ -26,7 +25,10 @@ export const projectsData = [
             },
             {
                 stack: '#Stripe'
-      },
+            },
+            {
+                stack: '#Supabase'
+            },
             {
                 stack: '#Shadcn-ui'
             },

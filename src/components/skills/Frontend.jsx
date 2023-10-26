@@ -10,20 +10,18 @@ const Frontend = () => {
             <div className="skills__box">
 
                 <ul className="skills__group" role="list">
-                    <li className="skills__data" role="listitem">
+                    {/* <li className="skills__data" role="listitem">
                         <i className="devicon-html5-plain skills__icon" alt=""></i>
                         <p className="skills__name">HTML</p>
                     </li>
                     <li className="skills__data" role="listitem">
                         <i className="devicon-css3-plain skills__icon" alt=""></i>
                         <p className="skills__name">CSS</p>
-                    </li>
+                    </li> */}
                     <li className="skills__data" role="listitem">
                         <i className="devicon-javascript-plain skills__icon" alt=""></i>
                         <p className="skills__name">JavaScript</p>
                     </li>
-                </ul>
-                <ul className="skills__group" role="list">
                     <li className="skills__data" role="listitem">
                         <i className="devicon-react-original skills__icon" alt=""></i>
                         <p className="skills__name">React</p>
@@ -32,6 +30,8 @@ const Frontend = () => {
                         <i className="devicon-nextjs-original skills__icon" alt=""></i>
                         <p className="skills__name">Next.js</p>
                     </li>
+                </ul>
+                <ul className="skills__group" role="list">
                     <li className="skills__data" role="listitem">
                         <i className="devicon-tailwindcss-plain skills__icon" alt=""></i>
                         <p className="skills__name">Tailwindcss</p>
