@@ -9,14 +9,17 @@ import Qualifications from "./components/qualifications/Qualifications";
 import Work from "./components/work/Work";
 import ScrollUp from "./components/scrollup/ScrollUp";
 import Contact from "./components/contact/Contact";
+import Working from "./components/workingproject/working";
 
 function App() {
+  
   return (
     <div className="App">
         <Header />
         <main className="main">
           <Home />
           <About />
+          <Working />
           <Skills />
           <Services />
           <Qualifications />

@@ -21,8 +21,8 @@
 
 
   /*========== Font and typography ==========*/
-  /* --body-font: "Poppins",sans-serif; */
-  --body-font: "Lexend", sans-serif;
+  --body-font: "Poppins", sans-serif;
+  /* --body-font: "Lexend", sans-serif; */
 
   /*.5rem = 8px | 1rem = 16px ...*/
   --big-font-size: 3.5rem;
@@ -139,6 +139,7 @@ img {
 
 .section__title,
 .section__subtitle {
+  margin-bottom: 1.5rem;
   text-align: center;
 }
 
