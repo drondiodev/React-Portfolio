@@ -1,5 +1,5 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -11,18 +11,24 @@
   --sat: 0%;
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: #545454;
+  /* --text-color: #545454; */
   /* --body-color: hsl(var(--hue), var(--sat), 98%); */
-  --body-color: #fbfbfd;
+  /* --body-color: #fbfbfd; */
   --container-color: #fbfbfd;
   --container-color-hover: #f0F0F2;
-  --primary2: #2071e7;
-  --primary: #254F98;
+  /* --primary2: #2071e7;
+  --primary: #254F98; */
+
+
+
+  --text-color: #030302;
+  --body-color: #fbfbfd;
+  --primary2: #9786c6;
+  --primary: #664ea6;
 
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
-  /* --body-font: "Lexend", sans-serif; */
 
   /*.5rem = 8px | 1rem = 16px ...*/
   --big-font-size: 3.5rem;
