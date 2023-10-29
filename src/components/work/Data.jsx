@@ -2,6 +2,7 @@ import projetCV from "../../assets/projetCV.png";
 import projetASTRO from "../../assets/projetASTRO.png";
 import projetQRCODE from "../../assets/projetQRCODE.png";
 import nextjs from "../../assets/nextjs.png";
+import coming from "../../assets/coming.png";
 
 export const projectsData = [
   {
@@ -34,8 +35,30 @@ export const projectsData = [
             },
         ]
   },
-  {
+    {
     id: 2,
+    image: coming,
+    title: "Full Stack Next.JS 13 | Event Apllication Platform",
+    category: "application web",
+    repo: "https://github.com/drondiodev/event-app",
+    subtitle: 'Stack utilisée :',
+    technos: [
+            {
+                stack: '#Next.JS 13'
+            },
+            {
+                stack: '#TS'
+            },
+            {
+                stack: '#TailwindCSS'
+            },
+            {
+                stack: '#Knex'
+            },
+        ]
+  },
+  {
+    id: 3,
     image: projetASTRO,
     title: "Exemple de portfolio fait avec Astro",
     category: "site web",
@@ -51,7 +74,7 @@ export const projectsData = [
         ]
   },
   {
-    id: 3,
+    id: 4,
     image: projetCV,
     title: "Mon CV en HTML & SCSS",
     subtitle: 'Stack utilisée :',
@@ -70,7 +93,7 @@ export const projectsData = [
         ]
   },
   {
-    id: 4,
+    id: 5,
     image: projetQRCODE,
     title: "Qr-code-component",
     subtitle: 'Stack utilisée :',
