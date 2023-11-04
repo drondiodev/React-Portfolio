@@ -5,7 +5,7 @@ const Services = () => {
     return (
         <section className="services section" id="services">
         <h2 className="section__title">Compétences</h2>
-        <span className="section__subtitle">Ce que je propose</span>
+        <h3 className="section__subtitle">Ce que je propose</h3>
             <div className="services__container container grid">
                 <div className="services__content">
                     <div>
@@ -15,7 +15,7 @@ const Services = () => {
                     </div>
                 <div>
                     <p className="services__modal-description">
-                        Actuellement en formation de développement web spécialisé en accessibilité numérique à l’école O’clock, je me lance dans une nouvelle aventure professionnelle.
+                        Ayant terminé ma formation de développeur web spécialisé en accessibilité numérique, je me lance dans une nouvelle aventure professionnelle.
                     </p>
                     <ul className="services__modal-services grid">
                         <li className="services__modal-service">
@@ -28,7 +28,7 @@ const Services = () => {
                         </li>
                         <li className="services__modal-service">
                             <i className="uil uil-check-circle services__modal-icon"></i>
-                            <p className="services__modal-info">Organisé, je sais prendre en compte les priorités, prendre l'initiative si nécessaire et travailler en autonomie.</p>
+                            <p className="services__modal-info">Organisé, je sais prendre en compte les priorités, prendre l&apos;initiative si nécessaire et travailler en autonomie.</p>
                         </li>
                     </ul>
                 </div>
@@ -49,7 +49,7 @@ const Services = () => {
                         <li className="services__modal-service">
                             <i className="uil uil-check-circle services__modal-icon"></i>
                             <p className="services__modal-info">
-                            Si vous cherchez un développeur web qui est passionné par son travail, prêt à relever de nouveaux défis avec enthousiasme, et ouvert à la reconversion de carrière, je vous invite à nous rencontrer dès maintenant.
+                            Si vous cherchez un professionel passionné par son travail, prêt à relever de nouveaux défis avec enthousiasme, je vous invite à nous rencontrer dès maintenant.
                             </p>
                         </li>
                     </ul>

@@ -5,8 +5,8 @@ const Header = () => {
     const [Toggle, showMenu] = useState(false);
     return (
         <header role="banner" className="header">
-            <nav className="nav container" >
-                <a href="/" title="Retour à l'accueil" className="nav__logo"><span>&lt;</span> Drondiodev. /<span>&gt;</span></a>
+        <nav className="nav container" >
+          <a href="/" title="Retour à l'accueil" className="nav__logo"><span>&#123;D&#125;</span>rondio<span>dev.</span></a>
                 <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
                     <ul className="nav__list grid">
                         <li className="nav_item">

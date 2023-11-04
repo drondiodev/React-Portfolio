@@ -7,7 +7,7 @@ const About = () => {
     return (
         <section className="about section" id="about">
         <h2 className="section__title">Qui suis-je ?</h2>
-        <span className="section__subtitle">Présentation</span>
+        <h3 className="section__subtitle">Présentation</h3>
             <div className="about__container container grid">
                 <div className="about__border">
                     <div className="about__perfil">
@@ -19,7 +19,7 @@ const About = () => {
                         <p className="about__description">
                         Avec mes 18 années d&apos;expertise en commerce et vente, j&apos;ai pris le virage décisif vers le développement web. 
                         </p>
-                        <p className="about__description">Mon objectif : créer des sites d&apos;excellence, alliant accessibilité et expérience utilisateur remarquable.</p>
+                        <p className="about__description"><span>Mon objectif :</span> créer des sites d&apos;excellence, alliant accessibilité et expérience utilisateur remarquable.</p>
                         <p className="about__description">Je m&apos;engage à fournir des solutions fonctionnelles et innovantes, adaptées à chaque projet.</p>
                 </div>
                 <div>

@@ -5,8 +5,8 @@ const Footer = () => {
     return (
         <footer role="contentinfo" className="footer">
         <div className="footer__container container">
-                <h2 className="footer__title"><span>&lt;</span> Drondiodev. /<span>&gt;</span></h2>
-                <h3 className="footer__title">Développeur Javascript</h3>
+                <h2 className="footer__title"><span>&#123;D&#125;</span>rondio<span>dev.</span></h2>
+                <h3 className="footer__title">Développeur <span>Javascript</span></h3>
             <ul className="footer__list">
             <li>
                 <a href="#about" className="footer__link">
@@ -42,9 +42,7 @@ const Footer = () => {
             </div>
 
             <span className="footer__copy">
-                &#169; 2023 David Rondio | All rights reserved
-
-            </span>
+            Copyright &#169; 2023, <span>David Rondio.</span> All rights reserved.</span>
         </div>
         </footer>
     );
