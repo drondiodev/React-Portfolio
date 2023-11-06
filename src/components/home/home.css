@@ -25,8 +25,12 @@
 }
 
 .home__title {
-  font-size: var(--big-font-size);
+  font-size: var(--h1-font-size);
   margin-bottom: var(--mb-0-25);
+}
+
+.home__title span {
+  color: var(--primary);
 }
 
 .home__subtitle {
@@ -42,7 +46,6 @@
 
 .home__description {
   max-width: 700px;
-  margin-bottom: var(--mb-3);
 }
 
 @media screen and (max-width: 992px) {
