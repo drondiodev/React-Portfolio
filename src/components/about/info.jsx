@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Info = () => {
 return (
     <div className="about__info grid">
@@ -24,4 +22,4 @@ return (
 )
 }
 
-export default Info
+export default Info;

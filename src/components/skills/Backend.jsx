@@ -1,6 +1,3 @@
-import React from 'react';
-
-
 const Backend = () => {
     return (
         <section className="skills__content" aria-label="Compétences backend">
@@ -34,4 +31,4 @@ const Backend = () => {
     )
 }
 
-export default Backend
+export default Backend;

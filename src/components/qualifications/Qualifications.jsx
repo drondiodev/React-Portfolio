@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./qualifications.css";
 const Qualifications = () => {
     const [toggleState, setToggleState] = useState(2);

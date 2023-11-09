@@ -1,4 +1,3 @@
-import React from 'react';
 import "./work.css";
 import Works from './Works';
 const Work = () => {
@@ -11,5 +10,5 @@ const Work = () => {
     )
 }
 
-export default Work
+export default Work;
 

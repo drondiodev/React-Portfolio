@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import "./header.css";
 
 const Header = () => {
@@ -46,4 +46,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default Header;

@@ -1,4 +1,3 @@
-import React from 'react';
 import "./scrollup.css";
 const ScrollUp = () => {
 
@@ -18,4 +17,4 @@ const ScrollUp = () => {
     )
 }
 
-export default ScrollUp
+export default ScrollUp;

@@ -16,13 +16,13 @@
 
 .work__card {
   background-color: var(--container-color);
-  border: 3px solid var(--primary);
   border-radius: 1rem;
   padding: 0 0 1rem 0;
-  max-width: 500px;
+  max-width: 480px;
 }
 
 .work__card:hover {
   transition: 0.3s;
+  border: 2px solid var(--primary);
   background-color: var(--container-color-hover);
 }

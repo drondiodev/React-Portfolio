@@ -1,5 +1,3 @@
-import React from "react";
-
 const Frontend = () => {
     return (
         <section className="skills__content" aria-label="Compétences frontend">
