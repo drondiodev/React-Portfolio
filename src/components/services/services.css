@@ -45,11 +45,6 @@
   border-radius: 1.5rem;
 }
 
-/* .services__modal-title,
-.services__modal-description {
-  text-align: center;
-} */
-
 .services__modal-title {
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
@@ -58,7 +53,6 @@
 
 .services__modal-description {
   font-size: var(--small-font-size);
-  /* padding: 0 3.5rem; */
   margin-bottom: var(--mb-2);
 }
 
