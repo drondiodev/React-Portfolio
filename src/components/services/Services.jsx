@@ -19,7 +19,7 @@ const Services = () => {
                     <ul className="services__modal-services grid">
                         <li className="services__modal-service">
                             
-                            <p className="services__modal-info">Mon super pouvoir : la résolution de problèmes.</p>
+                            <p className="services__modal-info"><span>Mon super pouvoir :</span> la résolution de problèmes.</p>
                         </li>
                         <li className="services__modal-service">
                             
@@ -46,7 +46,6 @@ const Services = () => {
                             <p className="services__modal-info">Je monte en compétences pour encadrer toutes les phases d&apos;un projet.</p>
                         </li>
                         <li className="services__modal-service">
-                            
                             <p className="services__modal-info">
                             Si vous cherchez un professionel passionné par son travail, prêt à relever de nouveaux défis avec enthousiasme, je vous invite à nous rencontrer dès maintenant.
                             </p>
