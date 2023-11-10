@@ -24,15 +24,15 @@ const Frontend = () => {
                         <i className="devicon-react-original skills__icon" alt=""></i>
                         <p className="skills__name">React</p>
                     </li>
-                    <li className="skills__data" role="listitem">
-                        <i className="devicon-nextjs-original skills__icon" alt=""></i>
-                        <p className="skills__name">Next.js</p>
-                    </li>
                 </ul>
                 <ul className="skills__group" role="list">
                     <li className="skills__data" role="listitem">
                         <i className="devicon-tailwindcss-plain skills__icon" alt=""></i>
                         <p className="skills__name">Tailwindcss</p>
+                    </li>
+                    <li className="skills__data" role="listitem">
+                        <i className="devicon-nextjs-original skills__icon" alt=""></i>
+                        <p className="skills__name">Next.js</p>
                     </li>
                 </ul>
             </div>

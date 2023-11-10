@@ -7,7 +7,7 @@ const Header = () => {
         <header role="banner" className="header">
         <nav className="nav container" >
           <a href="/" title="Retour à l'accueil" className="nav__logo"><span>&#123;D&#125;</span>rondio<span>dev</span></a>
-                <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
+          <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
                     <ul className="nav__list grid">
                         <li className="nav_item">
                             <a href="#home" className="nav__link">

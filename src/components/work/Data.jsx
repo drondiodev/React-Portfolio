@@ -22,16 +22,7 @@ export const projectsData = [
                 stack: '#TailwindCSS'
             },
             {
-                stack: '#Clerk'
-            },
-            {
-                stack: '#Stripe'
-            },
-            {
                 stack: '#Supabase'
-            },
-            {
-                stack: '#Shadcn-ui'
             },
         ]
   },

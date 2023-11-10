@@ -23,6 +23,5 @@
 
 .work__card:hover {
   transition: 0.3s;
-  border: 2px solid var(--primary);
   background-color: var(--container-color-hover);
 }

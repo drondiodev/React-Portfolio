@@ -18,8 +18,13 @@ const About = () => {
             </div>
             <div>
               <div className="skills__box">
-                  <i className="uil uil-file-download-alt skills__icon" alt=""></i>
-                  <p className="skills__name active-link"><a href="https://drive.google.com/file/d/1Fr7fwtAYYKdp3VbfSvuXTOWiVbCfspdG/view?usp=drive_link" download="Mon CV en pdf">Téléchargez mon CV ici</a></p>
+                <i className="uil uil-file-download-alt skills__icon" alt=""></i>
+                <p className="skills__name active-link">
+                    <a href="https://drive.google.com/file/d/1Fr7fwtAYYKdp3VbfSvuXTOWiVbCfspdG/view?usp=drive_link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    download="Mon CV en pdf">Téléchargez mon CV ici</a>
+                </p>
               </div>
             </div>
         </section>
