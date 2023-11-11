@@ -22,7 +22,7 @@ const Qualifications = () => {
                 onClick={() => toggleTab(1)}
             >
                 <i className="uil uil-university qualification__icon"></i>
-                Formations
+                Mes formations
             </div>
             <div
                 className={
@@ -33,7 +33,7 @@ const Qualifications = () => {
                 onClick={() => toggleTab(2)}
             >
                 <i className="uil uil-briefcase-alt qualification__icon"></i>
-                Expériences
+                Mes expériences
             </div>
             </div>
 
@@ -100,7 +100,7 @@ const Qualifications = () => {
                     DÉVELOPPEUR WEB ET ACCESSIBILITÉ
                     </h3>
                     <span className="qualification__subtitle">
-                    Projet tutoré en partenariat avec l&apos;entreprise ATI4 GROUP
+                    Projet tutoré de 2 mois - Projet en partenariat avec une entreprise
                     </span>
                     <div className="qualification__calendar">
                     <i className="uil uil-calendar-alt"></i> 06/2023 - 08/2023

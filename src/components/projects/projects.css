@@ -1,0 +1,56 @@
+.projects__container {
+  width: 600px;
+
+}
+
+.projects__card {
+  display: flex;
+  background-color: var(--container-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  margin-bottom: var(--mb-3);
+}
+
+.projects__img {
+  width: 600px;
+  height: 375px;
+  border-radius: 1rem;
+  margin-bottom: var(--mb-1);
+}
+
+.projects__title {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-1);
+}
+
+.projects__description {
+  font-size: var(--normal-font-size);
+  margin-bottom: var(--mb-1);
+}
+
+.swiper-pagination-bullet {
+  background-color: var(--text-color) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--title-color) !important;
+}
+
+/* ========================= Breakpoints ============================== */
+
+@media screen and (max-width: 992px) {
+  .projects__container {
+    width: initial;
+  }
+
+  .projects__card {
+    padding: 0.25rem .5rem;
+  }
+
+  .projects__img {
+    width: 400px;
+    height: 275px;
+  }
+}
