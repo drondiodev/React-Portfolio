@@ -1,11 +1,11 @@
 import "./working.css";
 import WorkItems from "../work/WorkItems";
-import { projectsData } from "../work/Data";
+import { Data } from "../projects/DataProjects";
 
 const Working = () => {
-  const project = projectsData.find((p) => p.id === 1);
+  const project = Data.find((p) => p.id === 1);
   return (
-    <section className="skills section container">
+    <section className="working section">
       <h2 className="section__title">
         Coming <span>soon</span>
       </h2>

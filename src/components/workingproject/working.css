@@ -1,6 +1,16 @@
-.container_working {
+.working {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+
+}
+
+.working__img {
+  width: 600px;
+  height: 375px;
+  border-radius: 1rem;
+  margin-bottom: var(--mb-1);
 }
 
 .skills__title {
@@ -15,10 +25,12 @@
 }
 
 .work__card {
+  max-width: 600px;
   background-color: var(--container-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem 2rem;
   border-radius: 1rem;
-  padding: 0 0 1rem 0;
-  max-width: 480px;
+  margin-bottom: var(--mb-3);
 }
 
 .work__card:hover {
