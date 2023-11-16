@@ -9,6 +9,7 @@ export const Data = [
       id: 1,
       image: Image1,
       title: "Full Stack Next.JS 13 | Projet de plateforme E-commerce",
+      alt: "Image du Projet de plateforme E-commerce",
       description:
         "Création from scratch, d'un site E-commerce, en utilisant Next.JS 13, TailwindCSS, TypeScript, Supabase, Stripe, Clerck et Shadcn-UI.",
     },
@@ -16,6 +17,7 @@ export const Data = [
       id: 2,
       image: Image2,
       title: "Full Stack Next.JS 13 | Squeeze Events",
+      alt: "Image du Projet Squeeze Events",
       description:
         "Projet en binôme, de création d'une plateforme de génération d'E-billets pour événements tech - En cours de construction.",
       repo: "https://github.com/drondiodev/event-app",
@@ -24,6 +26,7 @@ export const Data = [
       id: 3,
       image: Image3,
       title: "Exemple de portfolio fait avec Astro",
+      alt: "Image de mon ancien portfolio fait avec Astro",
       description:
         "Première itération de mon portfolio, réalisé avec Astro.",
       repo: "https://github.com/drondiodev/portfolio",
@@ -32,6 +35,7 @@ export const Data = [
       id: 4,
       image: Image4,
       title: "Mon CV en HTML & SCSS",
+      alt: "Image de précédent CV en HTML & SCSS",
       description:
         "Mon premier vrai projet en HTML et SCSS.",
       repo: "https://github.com/drondiodev/drondiodev.github.io",
@@ -40,6 +44,7 @@ export const Data = [
       id: 5,
       image: Image5,
       title: "Qr-code-component",
+      alt: "Image du projet Qr-code-component",
       description:
         "Challenge Frontend Mentor - Projet QR Code component en HTML et CSS.",
       repo: "https://github.com/drondiodev/QR-code-component",
