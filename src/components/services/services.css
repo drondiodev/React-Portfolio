@@ -7,14 +7,13 @@
 
 .services__content {
   background-color: var(--container-color);
-  border: 3px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1.25rem;
   border-radius: 1rem;
 }
 
 .services__title {
   font-size: var(--h3-font-size);
-  color: var(--primary);
   margin-bottom: var(--mb-1);
   font-weight: var(--font-medium);
 

@@ -51,7 +51,6 @@
 
 .about__box {
   background-color: var(--container-color);
-  border: 2px solid var(--primary);
   border-radius: 0.75rem;
   margin: 0 1rem;
   text-align: center;

@@ -14,11 +14,11 @@ const Header = () => {
                                 <i className="uil uil-estate nav__icon"></i> Accueil
                             </a>
                         </li>
-                        <li className="nav_item">
+                        {/* <li className="nav_item">
                             <a href="#about" className="nav__link">
                                 <i className="uil uil-user nav__icon"></i> A propos
                             </a>
-                        </li>
+                        </li> */}
                         <li className="nav_item">
                             <a href="#skills" className="nav__link">
                                 <i className="uil uil-constructor nav__icon"></i> Skills
