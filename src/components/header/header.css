@@ -3,6 +3,8 @@
   position: fixed;
   top: 0;
   left: 0;
+  z-index: var(--z-fixed);
+  background-color: #fff;
 }
 
 .nav {
@@ -88,7 +90,7 @@
 
   .nav__list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
   }
 

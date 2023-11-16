@@ -24,6 +24,7 @@ const Frontend = () => {
                         <i className="devicon-react-original skills__icon" alt=""></i>
                         <p className="skills__name">React</p>
                     </li>
+                    
                 </ul>
                 <ul className="skills__group" role="list">
                     <li className="skills__data" role="listitem">

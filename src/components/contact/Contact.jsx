@@ -25,14 +25,17 @@ const Contact = () => {
             <div className="contact__content">
                 <div className="contact__info">
                     <div className="contact__card">
-                    <i className="bx bx-mail-send contact__card-icon"></i>
-                    <h3 className="contact__card-title">Mail</h3>
-                    <span aria-label="adresse email" alt="drondiodev@icloud.com" className="contact__card-data">
-                    drondiodev@icloud.com
-                    </span>
-                    <a href="mailto:drondiodev@icloud.com" title="m'envoyer un mail"
-                        className="contact__button" target="_blank" rel="noreferrer"> 
-                    </a>
+
+                        <a
+                          href="mailto:drondiodev@icloud.com"
+                          className="home__social-icon"
+                          rel="noreferrer"
+                          target="_blank"
+                          aria-label="Lien pour m'envoyer un email">
+                          <i className="bx bx-mail-send contact__card-icon" aria-hidden="true"></i>
+                          drondiodev@icloud.com
+                        </a>
+
                     </div>
                 </div>
             <h3 className="contact__title">Que puis-je faire pour vous ?</h3>
