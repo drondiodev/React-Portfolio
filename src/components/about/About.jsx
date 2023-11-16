@@ -1,5 +1,5 @@
 import "./about.css";
-import Photo from "../../assets/photo.png";
+import Photo from "../../assets/photo.webp";
 import Info from "./info";
 
 const About = () => {

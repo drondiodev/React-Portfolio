@@ -1,7 +1,7 @@
 import projetCV from "../../assets/projetCV.png";
 import projetASTRO from "../../assets/projetASTRO.png";
 import projetQRCODE from "../../assets/projetQRCODE.png";
-import nextjs from "../../assets/nextjs.png";
+import nextjs from "../../assets/nextjs2.webp";
 import coming from "../../assets/coming.png";
 
 export const projectsData = [

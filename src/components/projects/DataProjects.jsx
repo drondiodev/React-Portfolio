@@ -1,8 +1,8 @@
-import Image1 from '../../assets/nextjs.png'
-import Image2 from '../../assets/squeezeEvents.png'
-import Image3 from '../../assets/projetASTRO.png'
-import Image4 from '../../assets/projetCV.png'
-import Image5 from '../../assets/projetQRCODE.png'
+import Image1 from '../../assets/nextjs2.webp'
+import Image2 from '../../assets/squeezeEvents.webp'
+import Image3 from '../../assets/projetASTRO.webp'
+import Image4 from '../../assets/projetCV.webp'
+import Image5 from '../../assets/projetQRCODE.webp'
 
 export const Data = [
     {
