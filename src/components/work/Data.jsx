@@ -10,6 +10,7 @@ export const projectsData = [
     image: nextjs,
     title: "Full Stack Next.JS 13 | E-commerce Platform",
     category: "application web",
+    repo: "https://github.com/drondiodev/",
     subtitle: 'Stack utilisée :',
     technos: [
             {

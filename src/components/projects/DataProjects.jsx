@@ -11,7 +11,8 @@ export const Data = [
       title: "Full Stack Next.JS 13 | Projet de plateforme E-commerce",
       alt: "Image du Projet de plateforme E-commerce",
       description:
-        "Création from scratch, d'un site E-commerce, en utilisant Next.JS 13, TailwindCSS, TypeScript, Supabase, Stripe, Clerck et Shadcn-UI.",
+      "Création from scratch, d'un site E-commerce, en utilisant Next.JS 13, TailwindCSS, TypeScript, Supabase, Stripe, Clerck et Shadcn-UI.",
+      repo: "https://github.com/drondiodev/",
     },
     {
       id: 2,
