@@ -2,6 +2,8 @@ import "./about.css";
 import Photo from "../../assets/photo.webp";
 import Info from "./info";
 
+const CV_URL = "src/assets/CV.pdf";
+
 const About = () => {
   return (
       <section className="about section" id="about">
@@ -16,20 +18,21 @@ const About = () => {
             <div className="about__data">
                 <Info />
             </div>
-            {/* <div>
+            <div>
               <div className="skills__box">
                 <i className="uil uil-file-download-alt skills__icon" alt=""></i>
                 <p className="skills__name active-link">
-                  <a href="/src/assets/cv.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      download="Mon CV en pdf"
-                      aria-label="Lien pour m'envoyer un email">
+                <a
+                  href={CV_URL}
+                  download="CV Rondio David.pdf" 
+                  // target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Télécharger mon CV au format PDF">
                       Téléchargez mon CV ici
                   </a>
                 </p>
               </div>
-            </div> */}
+            </div>
         </section>
     );
 };
