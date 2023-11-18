@@ -16,7 +16,7 @@ const About = () => {
             <div className="about__data">
                 <Info />
             </div>
-            <div>
+            {/* <div>
               <div className="skills__box">
                 <i className="uil uil-file-download-alt skills__icon" alt=""></i>
                 <p className="skills__name active-link">
@@ -29,7 +29,7 @@ const About = () => {
                   </a>
                 </p>
               </div>
-            </div>
+            </div> */}
         </section>
     );
 };

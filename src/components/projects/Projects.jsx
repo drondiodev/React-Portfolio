@@ -4,8 +4,9 @@ import { Data } from "./DataProjects";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
-import { Pagination } from 'swiper/modules';
+import { Mousewheel, Pagination, Navigation} from 'swiper/modules';
 
 const Projects = () => {
   return (
@@ -13,14 +14,17 @@ const Projects = () => {
       <h2 className="section__title">Portfolio</h2>
       <h3 className="section__subtitle">Découvre l&apos;ensemble de mes réalisations</h3>
       <Swiper
+        cssMode={true}
         className="projects__container"
         loop={true}
         grabCursor={true}
         slidesPerView={1}
+        navigation={true}
+        mousewheel={true}
         pagination={{
           clickable: true,
         }}
-        modules={[Pagination]}
+        modules={[Pagination, Navigation, Mousewheel]}
       >
         {Data.map(({ id, image, title, alt, description, repo }) => {
           return (
