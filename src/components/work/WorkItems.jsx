@@ -2,12 +2,11 @@
 /* eslint-disable react/prop-types */
 
 const WorkItems = ({ item }) => {
-  
   return (
     <div className="work__card" key={item.id}>
       <img src={item.image} alt={item.alt} className="work__image" />
 
-      <div className="work__content">
+      <div>
         <h3 className="work__title">{item.title}</h3>
         <p className="work__subtitle">{item.subtitle}</p>
         <a
@@ -18,11 +17,10 @@ const WorkItems = ({ item }) => {
           rel="noreferrer"
         >
           Repository GitHub
-          <i className="uil uil-github-alt work__button-icon" alt="repository github"></i>
         </a>
-      </div>   
+      </div>
     </div>
-  )
-}
+  );
+};
 
 export default WorkItems;

@@ -95,8 +95,19 @@ textarea {
 }
 
 body {
-  background-color: var(--body-color);
+  /* background-color: var(--body-color); */
   color: var(--text-color);
+  /* position: absolute; */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -10;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+  background-size: 16px 16px;
 }
 
 h1,
