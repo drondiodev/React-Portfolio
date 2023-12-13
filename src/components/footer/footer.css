@@ -12,7 +12,8 @@
   color: var(--title-color);
 }
 
-.footer__title {
+.footer__title,
+.footer__subtitle {
   text-align: center;
   margin-bottom: var(--mb-2);
 }
