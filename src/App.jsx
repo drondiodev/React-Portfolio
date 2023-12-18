@@ -9,7 +9,7 @@ import Qualifications from "./components/qualifications/Qualifications";
 import ScrollUp from "./components/scrollup/ScrollUp";
 import Contact from "./components/contact/Contact";
 import Projects from "./components/projects/Projects";
-import Working from "./components/workingproject/Working";
+// import Working from "./components/workingproject/Working";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       <main className="main">
         <Home />
         <About />
-        <Working />
+        {/* <Working /> */}
         <Skills />
         <Services />
         <Qualifications />
