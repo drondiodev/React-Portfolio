@@ -1,5 +1,5 @@
 import "./projects.css";
-import { Data } from "./DataProjects";
+import { DataProjects } from "./DataProjects";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -28,7 +28,7 @@ const Projects = () => {
         }}
         modules={[Pagination, Navigation, Mousewheel]}
       >
-        {Data.map(({ id, image, title, alt, description, repo }) => {
+        {DataProjects.map(({ id, image, title, alt, description, repo }) => {
           return (
             <SwiperSlide className="projects__card" key={id}>
               <img src={image} alt={alt} className="projects__img" />

@@ -5,7 +5,7 @@ import Image4 from "../../assets/projetCV.webp";
 import Image5 from "../../assets/projetQRCODE.webp";
 import Image6 from "../../assets/githubScraper.webp";
 
-export const Data = [
+export const DataProjects = [
   {
     id: 1,
     image: Image1,
