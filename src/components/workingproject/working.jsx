@@ -1,6 +1,6 @@
 import "./working.css";
 import WorkItems from "../work/WorkItems";
-import { DataProjects } from "../projects/DataProjects";
+import { Data } from "../projects/DataProjects";
 
 const Working = () => {
   return (
@@ -10,7 +10,7 @@ const Working = () => {
       </h2>
       <h3 className="section__subtitle">Sur quoi je travaille actuellement</h3>
       <div className="container_working">
-        {DataProjects.slice(0, 2).map((project) => (
+        {Data.slice(0, 2).map((project) => (
           <WorkItems key={project.id} item={project} />
         ))}
       </div>
