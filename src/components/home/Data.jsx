@@ -5,7 +5,7 @@ const Data = () => {
         <span>David</span> Rondio
       </h1>
       <p className="home__subtitle">
-        Développeur <span>Web</span>
+        <span>Business </span>& Web <span>Developer</span>
       </p>
       <p className="home__description">
         Ensemble développons un web qui repousse les limites et crée des
