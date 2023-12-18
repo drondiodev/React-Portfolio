@@ -1,8 +1,8 @@
-import "./working.css";
+import "./lastprojects.css";
 import WorkItems from "../work/WorkItems";
 import { Data } from "../projects/DataProjects";
 
-const Working = () => {
+const LastProjects = () => {
   return (
     <section className="working section">
       <h2 className="section__title">
@@ -18,4 +18,4 @@ const Working = () => {
   );
 };
 
-export default Working;
+export default LastProjects;
