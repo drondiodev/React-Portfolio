@@ -24,7 +24,7 @@ export const Data = [
     repo: "https://github.com/drondiodev/GithubScraper",
   },
   {
-    id: 2,
+    id: 3,
     image: Image2,
     title: "Full Stack Next.JS 13 | Squeeze Events",
     alt: "Image du Projet Squeeze Events",
@@ -33,7 +33,7 @@ export const Data = [
     repo: "https://github.com/drondiodev/event-app",
   },
   {
-    id: 3,
+    id: 4,
     image: Image3,
     title: "Exemple de portfolio fait avec Astro",
     alt: "Image de mon ancien portfolio fait avec Astro",
@@ -41,7 +41,7 @@ export const Data = [
     repo: "https://github.com/drondiodev/portfolio",
   },
   {
-    id: 4,
+    id: 5,
     image: Image4,
     title: "Mon CV en HTML & SCSS",
     alt: "Image de précédent CV en HTML & SCSS",
@@ -49,7 +49,7 @@ export const Data = [
     repo: "https://github.com/drondiodev/drondiodev.github.io",
   },
   {
-    id: 5,
+    id: 6,
     image: Image5,
     title: "Qr-code-component",
     alt: "Image du projet Qr-code-component",
