@@ -53,6 +53,37 @@
   --z-modal: 1000;
 }
 
+.skip-link {
+  background: #f5f6fa;
+  color: var(--text-color);
+  display: inline-block;
+  font-weight: 700;
+  left: 1rem;
+  padding: 0.7rem 1rem 0.7rem 1rem;
+  position: absolute;
+  text-decoration: none;
+  text-transform: uppercase;
+  top: 1rem;
+}
+
+/*========== Skip Link ==========*/
+.skip-link:hover {
+  background: var(--container-color);
+  color: #664ea6;
+}
+
+.skip-link:not(:focus) {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 /* Responsive typography */
 @media screen and (max-width: 992px) {
   :root {

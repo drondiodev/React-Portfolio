@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <main className="main">
+      <main id="main" className="main" tabIndex={-1}>
         <Home />
         <About />
         <LastProjects />

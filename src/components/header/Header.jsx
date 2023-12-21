@@ -5,6 +5,9 @@ const Header = () => {
   const [Toggle, showMenu] = useState(false);
   return (
     <header role="banner" className="header">
+      <a href="#about" className="skip-link">
+        Vers le contenu principal
+      </a>
       <nav className="nav container">
         <a href="/" title="Retour à l'accueil" className="nav__logo">
           <span>&#123;D&#125;</span>rondio<span>dev</span>
