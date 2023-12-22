@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { InlineWidget } from "react-calendly";
 import "./contact.css";
 const Contact = () => {
   const form = useRef();
@@ -25,6 +26,9 @@ const Contact = () => {
       <p className="section__subtitle">
         une touche de fraîcheur et de créativité à votre équipe !
       </p>
+      <div className="inline-widget">
+        <InlineWidget url="https://calendly.com/drondiodev" />
+      </div>
       <div className="contact__container container grid">
         <div className="contact__content">
           <div className="contact__info">
