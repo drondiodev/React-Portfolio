@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./header.css";
+import pastille from "../../assets/pastille.svg";
 
 const Header = () => {
   const [Toggle, showMenu] = useState(false);
@@ -48,6 +49,16 @@ const Header = () => {
           onClick={() => showMenu(!Toggle)}
         >
           <i className="uil uil-circle"></i>
+        </div>
+        <div className="nav__appointment">
+          <a
+            href="#contact"
+            title="Prendre un RDV"
+            className="nav__appointmentlink"
+          >
+            <span>Prendre un RDV</span>
+          </a>
+          <img src={pastille} alt="" className="nav__pastille" />
         </div>
       </nav>
     </header>
