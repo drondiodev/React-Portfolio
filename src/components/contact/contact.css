@@ -1,7 +1,6 @@
 .contact__container {
   grid-template-columns: repeat(2, max-content);
   justify-content: center;
-  /* column-gap: 6rem; */
   padding-bottom: 3rem;
 }
 
@@ -10,7 +9,7 @@
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
   margin-top: var(--mb-0-75);
-  margin-bottom: var(--mb-0-75);
+  margin-bottom: var(--mb-1-5);
 }
 
 .contact__info {

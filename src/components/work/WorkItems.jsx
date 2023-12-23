@@ -8,7 +8,8 @@ const WorkItems = ({ item }) => {
 
       <div>
         <h3 className="work__title">{item.title}</h3>
-        <p className="work__subtitle">{item.subtitle}</p>
+        <p className="work__subtitle">{item.description}</p>
+
         <a
           href={item.repo}
           target="_blank"

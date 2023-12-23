@@ -1,4 +1,5 @@
 import { useState } from "react";
+// import { navLinks } from "../../constants";
 import "./header.css";
 import pastille from "../../assets/pastille.svg";
 
