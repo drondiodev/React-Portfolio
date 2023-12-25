@@ -11,7 +11,7 @@
 .home__social {
   display: grid;
   grid-template-columns: max-content;
-  row-gap: 1.5rem;
+  row-gap: 2rem;
 }
 
 .home__social-icon {
@@ -25,7 +25,7 @@
 
 .home__title {
   font-size: var(--h1-font-size);
-  margin-bottom: var(--mb-0-25);
+  margin: var(--mb-1) 0;
 }
 
 .home__title span {
@@ -34,9 +34,9 @@
 
 .home__subtitle {
   position: relative;
-  font-size: var(--h3-font-size);
+  font-size: var(--h2-font-size);
   font-weight: var(--font-normal);
-  margin-bottom: var(--mb-1);
+  margin: var(--mb-1) 0;
 }
 
 .home__subtitle span {
@@ -45,7 +45,9 @@
 
 .home__description {
   max-width: 700px;
+  margin: var(--mb-1) 0;
 }
+
 
 @media screen and (max-width: 992px) {
   .home__content {

@@ -53,7 +53,9 @@ const Header = () => {
         </div>
         <div className="nav__appointment">
           <a
-            href="#contact"
+            href="https://calendly.com/drondiodev/"
+            target="_blank"
+            rel="noreferrer"
             title="Prendre un RDV"
             className="nav__appointmentlink"
           >

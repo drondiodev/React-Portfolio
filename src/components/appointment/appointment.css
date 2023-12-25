@@ -1,0 +1,43 @@
+.home__appointment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1.5rem;
+  padding: 0.8rem;
+
+}
+
+.appointment {
+  position: relative;
+}
+
+.appointmentlink {
+  display: inline-block;
+  opacity: 1;
+  padding: 0.8rem 1.5rem;
+  border: 2px solid var(--primary);
+  border-radius: 0.8rem;
+  cursor: pointer;
+
+}
+
+.appointment:first-child .appointmentlink {
+  background-color: var(--primary);
+  color: white;
+}
+
+.pastille {
+  position: absolute;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  width: 25px;
+  margin-top: -9px;
+  margin-right: -7px;
+  top: 0%;
+  bottom: auto;
+  left: auto;
+  right: 0%;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+}

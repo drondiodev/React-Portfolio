@@ -3,6 +3,7 @@ import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
+import Appointment from "./components/appointment/Appointment";
 import Skills from "./components/skills/Skills";
 import Services from "./components/services/Services";
 import Qualifications from "./components/qualifications/Qualifications";
@@ -17,6 +18,7 @@ function App() {
       <Header />
       <main id="main" className="main" tabIndex={-1}>
         <Home />
+        <Appointment className="home__appointment" />
         <About />
         <LastProjects />
         <Skills />
