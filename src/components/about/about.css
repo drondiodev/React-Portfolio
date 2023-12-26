@@ -71,7 +71,7 @@
 }
 
 .about__subtitle {
-  font-size: var(--small-font-size);
+  font-size: var(--normal-font-size);
   text-align: left;
   margin-bottom: var(--mb-1);
 }
@@ -93,7 +93,6 @@
   text-transform: uppercase;
   font-weight: var(--font-medium);
 }
-
 
 @media screen and (max-width: 992px) {
   .about__container {

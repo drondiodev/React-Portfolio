@@ -26,6 +26,11 @@
   color: white;
 }
 
+.appointment:first-child:hover .appointmentlink {
+  background-color: white;
+  color: var(--primary);
+}
+
 .pastille {
   position: absolute;
   max-width: 100%;
