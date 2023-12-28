@@ -3,13 +3,13 @@
 
 const WorkItems = ({ item }) => {
   return (
-    <div className="work__card" key={item.id}>
-      <img src={item.image} alt={item.alt} className="work__image" />
-
+    <section className="work__card">
+      <div key={item.id}>
+        <img src={item.image} alt={item.alt} className="work__img" />
+      </div>
       <div>
         <h3 className="work__title">{item.title}</h3>
         <p className="work__subtitle">{item.description}</p>
-
         <a
           href={item.repo}
           target="_blank"
@@ -20,7 +20,7 @@ const WorkItems = ({ item }) => {
           Repository GitHub
         </a>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -7,8 +7,6 @@
 }
 
 .working__img {
-  width: 600px;
-  height: 375px;
   border-radius: 1rem;
   margin-bottom: var(--mb-1);
 }
@@ -25,7 +23,7 @@
 }
 
 .work__card {
-  max-width: 600px;
+  max-width: 500px;
   background-color: var(--container-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1rem 2rem;

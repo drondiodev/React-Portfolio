@@ -1,6 +1,6 @@
 const Data = () => {
   return (
-    <section className="home__data" aria-label="Information principale">
+    <section aria-label="Information principale">
       <h1 className="home__title">
         Hello, I&apos;m <span>David</span> Rondio
       </h1>
