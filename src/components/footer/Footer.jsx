@@ -74,9 +74,15 @@ const Footer = () => {
             <i className="uil uil-github" alt="GitHub"></i>
           </a>
         </section>
-        <span className="footer__copy">
-          Copyright &#169; 2023, <span>David Rondio.</span> All rights reserved.
-        </span>
+        <section className="footer__copy">
+          2023 - <span>David Rondio.</span> All rights reserved
+        </section>
+        <section className="footer__terms">
+          <a href="/" target="_blank">
+            Mentions légale
+          </a>{" "}
+          - <a href="/">Politique de confidentialité</a>
+        </section>
       </nav>
     </footer>
   );

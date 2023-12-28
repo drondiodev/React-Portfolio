@@ -31,15 +31,11 @@ const Contact = () => {
             <div className="contact__card">
               <a
                 href="mailto:drondiodev@icloud.com"
-                className="home__social-icon"
+                className="contact__card-icon"
                 rel="noreferrer"
                 target="_blank"
                 aria-label="Lien pour m'envoyer un email"
               >
-                <i
-                  className="bx bx-mail-send contact__card-icon"
-                  aria-hidden="true"
-                ></i>
                 drondiodev@icloud.com
               </a>
             </div>

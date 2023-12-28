@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  column-gap: 1.5rem;
+  column-gap: 1.2rem;
   padding: 0.8rem;
 
 }
@@ -11,24 +11,30 @@
   position: relative;
 }
 
-.appointmentlink {
-  display: inline-block;
-  opacity: 1;
+.appointment-link {
+  display: inline-flex;
+  align-items: center;
   padding: 0.8rem 1.5rem;
   border: 2px solid var(--primary);
   border-radius: 0.8rem;
-  cursor: pointer;
-
+  width: 175px;
+  height: 55px;
 }
 
-.appointment:first-child .appointmentlink {
-  background-color: var(--primary);
+.appointment:first-child .appointment-link {
+  justify-content: center;
+  background: var(--primary);
   color: white;
 }
 
-.appointment:first-child:hover .appointmentlink {
-  background-color: white;
-  color: var(--primary);
+.appointment:first-child .appointment-link span {
+  white-space: nowrap;
+  transform: translateX(0);
+  transition: transform 300ms ease;
+}
+
+.appointment:first-child:hover .appointment-link span {
+  transform: translateX(0);
 }
 
 .pastille {
