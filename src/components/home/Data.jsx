@@ -2,7 +2,7 @@ const Data = () => {
   return (
     <section className="home__data" aria-label="Information principale">
       <h1 className="home__title">
-        <span>David</span> Rondio
+        Hello, I&apos;m <span>David</span> Rondio
       </h1>
       <p className="home__subtitle">
         <span>Business </span>&amp; Web <span>Developer</span>
