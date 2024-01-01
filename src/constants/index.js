@@ -6,10 +6,34 @@ import Image5 from "../assets/projetQRCODE.webp";
 import Image6 from "../assets/githubScraper.webp";
 
 export const navLinks = [
-  { href: "#home", label: "Home" },
-  { href: "#about-us", label: "About Us" },
-  { href: "#products", label: "Products" },
-  { href: "#contact-us", label: "Contact Us" },
+  {
+    id: 1,
+    href: "#home",
+    arialabel: "Accueil",
+    icon: "uil uil-estate nav__icon",
+    label: " Accueil",
+  },
+  {
+    id: 2,
+    href: "#skills",
+    arialabel: "Skills",
+    icon: "uil uil-constructor nav__icon",
+    label: " Skills",
+  },
+  {
+    id: 3,
+    href: "#portfolio",
+    arialabel: "Portfolio",
+    icon: "uil uil-scenery nav__icon",
+    label: " Portfolio",
+  },
+  {
+    id: 4,
+    href: "#contact",
+    arialabel: "Portfolio",
+    icon: "uil uil-message nav__icon",
+    label: " Contact",
+  },
 ];
 
 export const projectsNav = [
