@@ -1,5 +1,5 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 :root {
   --header-height: 3rem;
@@ -166,6 +166,14 @@ img {
   font-size: var(--h1-font-size);
   color: var(--title-color);
   text-transform: uppercase;
+
+  &::before {
+    content: '\</>';
+    margin-right: 14px;
+    font-size: var(--h2-font-size);
+    color: var(--text-color);
+    font-weight: 700;
+  }
 }
 
 .section__subtitle {

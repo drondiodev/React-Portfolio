@@ -31,11 +31,20 @@
   position: relative;
   font-size: var(--h1-font-size);
   font-weight: var(--font-normal);
-  margin: var(--mb-1) 0;
+  margin: var(--mb-1-5) 0;
 }
 
 .home__subtitle span {
   color: var(--primary);
+}
+
+.home__slogan {
+  line-height: 100%;
+  font-size: var(--big-font-size);
+  font-weight: 700;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 2rem;
 }
 
 .home__description {
