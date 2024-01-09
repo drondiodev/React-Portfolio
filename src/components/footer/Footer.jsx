@@ -1,6 +1,7 @@
 import "./footer.css";
 
 const Footer = () => {
+  const year = new Date().getFullYear();
   return (
     <footer role="contentinfo" className="footer">
       <nav className="footer__container container" role="navigation">
@@ -43,39 +44,39 @@ const Footer = () => {
         <section className="footer__social" aria-label="Réseaux sociaux">
           <a
             href="https://www.linkedin.com/in/david-rondio/"
-            title="Mon profil linkedin"
             className="home__social-icon"
             target="_blank"
             rel="noreferrer"
-            aria-label="Profil LinkedIn"
+            aria-label="LinkedIn"
           >
             <i
               className="bx bxl-linkedin"
+              role="img"
               alt="Linkedin"
-              aria-label="Profil LinkedIn"
+              aria-label="LinkedIn"
             ></i>
           </a>
           <a
             href="mailto:drondiodev@icloud.com"
-            title="M'envoyer un mail"
+            aria-label="Mail"
             className="home__social-icon"
             target="_blank"
             rel="noreferrer"
           >
-            <i className="uil uil-envelope-alt" alt="Email"></i>
+            <i className="uil uil-envelope-alt" alt="Email" role="img"></i>
           </a>
           <a
             href="https://github.com/drondiodev"
-            title="Ma page Github"
+            aria-label="Github"
             className="home__social-icon"
             target="_blank"
             rel="noreferrer"
           >
-            <i className="uil uil-github" alt="GitHub"></i>
+            <i className="uil uil-github" alt="GitHub" role="img"></i>
           </a>
         </section>
         <section className="footer__copy">
-          2023 - <span>David Rondio.</span> All rights reserved
+          &copy; {year} - <span>David Rondio.</span> All rights reserved
         </section>
         <section className="footer__terms">
           <a href="/" target="_blank">

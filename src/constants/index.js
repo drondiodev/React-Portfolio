@@ -11,28 +11,28 @@ export const navLinks = [
     href: "#home",
     arialabel: "Accueil",
     icon: "uil uil-estate nav__icon",
-    label: " Accueil",
+    label: "Accueil",
   },
   {
     id: 2,
     href: "#skills",
     arialabel: "Skills",
     icon: "uil uil-constructor nav__icon",
-    label: " Skills",
+    label: "Skills",
   },
   {
     id: 3,
     href: "#portfolio",
     arialabel: "Portfolio",
     icon: "uil uil-scenery nav__icon",
-    label: " Portfolio",
+    label: "Portfolio",
   },
   {
     id: 4,
     href: "#contact",
-    arialabel: "Portfolio",
+    arialabel: "Contact",
     icon: "uil uil-message nav__icon",
-    label: " Contact",
+    label: "Contact",
   },
 ];
 

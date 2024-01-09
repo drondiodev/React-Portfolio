@@ -26,6 +26,10 @@
   color: var(--title-color-dark);
 }
 
+.carbon-badge {
+  margin-top: 1rem;
+}
+
 .footer__list {
   display: none;
   justify-content: center;

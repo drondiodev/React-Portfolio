@@ -1,5 +1,7 @@
 .projects__container {
-  max-width: 600px;
+  grid-template-columns: repeat(2, max-content);
+  gap: 3rem;
+  justify-content: center;
 }
 
 .projects__card {
@@ -12,8 +14,8 @@
 }
 
 .projects__img {
-  width: 600px;
-  height: 375px;
+  width: 400px;
+  height: 266px;
   border-radius: 1rem;
   margin-bottom: var(--mb-1);
 }

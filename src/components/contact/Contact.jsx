@@ -29,14 +29,20 @@ const Contact = () => {
         <div className="contact__content">
           <div className="contact__info">
             <div className="contact__card">
+              <i
+                className="contact__card-icon"
+                id="icone-email"
+                aria-hidden="true"
+              />
               <a
                 href="mailto:drondiodev@icloud.com"
                 className="contact__card-icon"
                 rel="noreferrer"
                 target="_blank"
+                aria-labelledby="icone-email texte-email"
                 aria-label="Lien pour m'envoyer un email"
               >
-                drondiodev@icloud.com
+                <span id="texte-email">drondiodev@icloud.com</span>
               </a>
             </div>
           </div>
@@ -44,35 +50,35 @@ const Contact = () => {
           <form ref={form} onSubmit={sendEmail} className="contact__form">
             <div className="contact__form-div">
               <label htmlFor="name" className="contact__form-tag">
-                Nom (obligatoire)
+                Nom
               </label>
               <input
-                type="name"
+                type="text"
                 id="name"
                 name="name"
                 className="contact__form-input"
-                placeholder="Entrez votre nom"
-                autoComplete="Entrez votre nom"
+                aria-required="true"
+                placeholder="Votre nom"
                 required
               />
             </div>
             <div className="contact__form-div">
               <label htmlFor="email" className="contact__form-tag">
-                E-mail (obligatoire)
+                E-mail
               </label>
               <input
                 type="email"
                 id="email"
                 name="email"
                 className="contact__form-input"
-                placeholder="Entrez votre adresse e-mail"
-                autoComplete="Entrez votre adresse e-mail"
+                aria-required="true"
+                placeholder="Votre adresse e-mail"
                 required
               />
             </div>
             <div className="contact__form-div contact__form-area">
               <label htmlFor="message" className="contact__form-tag">
-                Message (obligatoire)
+                Message
               </label>
               <textarea
                 name="query"
@@ -80,8 +86,8 @@ const Contact = () => {
                 cols="30"
                 rows="10"
                 className="contact__form-input"
-                placeholder="Entrez votre message ici"
-                autoComplete="ntrez votre message ici"
+                aria-required="true"
+                placeholder="Votre message ici"
                 required
               ></textarea>
             </div>
