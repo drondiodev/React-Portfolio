@@ -7,7 +7,7 @@ const CV_URL = "src/assets/CV.pdf";
 const About = () => {
   return (
     <section className="about section" id="about" aria-labelledby="Qui suis-je">
-      <h2 className="section__title">Qui suis-je ?</h2>
+      {/* <h2 className="section__title">Qui suis-je ?</h2> */}
       <div className="container">
         <div className="about__border">
           <div className="about__photo">
@@ -18,7 +18,7 @@ const About = () => {
       <div className="about__data">
         <Info />
       </div>
-      {/* <div>
+      <div>
         <div className="skills__box">
           <i
             className="uil uil-file-download-alt skills__icon"
@@ -37,7 +37,7 @@ const About = () => {
             </a>
           </p>
         </div>
-      </div> */}
+      </div>
     </section>
   );
 };

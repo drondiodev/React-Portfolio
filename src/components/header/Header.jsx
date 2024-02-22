@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { navLinks } from "../../constants";
 import "./header.css";
-import pastille from "../../assets/pastille.svg";
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -54,7 +53,10 @@ const Header = () => {
           >
             <span>Prendre un RDV</span>
           </a>
-          <img src={pastille} alt="" className="nav__pastille" />
+          <span className="dot">
+            <span className="ping"></span>
+            <span className="badge">1</span>
+          </span>
         </div>
       </nav>
     </header>

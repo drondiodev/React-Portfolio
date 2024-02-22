@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import "./appointment.css";
-import pastille from "../../assets/pastille.svg";
 import arrow2 from "../../assets/arrow2.svg";
 
 const Appointment = () => {
@@ -17,14 +16,9 @@ const Appointment = () => {
   }, []);
   return (
     <section className="home__appointment">
-      {/* <div className="appointment">
-        <a href="#contact" title="message" className="appointment-link">
-          <span>{message}</span>
-        </a>
-      </div> */}
       <div className="home__appointmentarrow">
         <div className="top">
-          <h2>Passez à l&apos;action </h2>
+          <h2>Il est temps de passer à l&apos;action </h2>
           <div>
             <img src={arrow2} alt="fleche" width={110} />
           </div>
@@ -40,7 +34,10 @@ const Appointment = () => {
             >
               <span>{message}</span>
             </a>
-            <img src={pastille} alt="" className="pastille" />
+            <span className="dot">
+              <span className="pingmobile"></span>
+              <span className="badge">1</span>
+            </span>
           </div>
         </div>
       </div>
