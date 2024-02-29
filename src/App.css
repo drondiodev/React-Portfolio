@@ -1,6 +1,6 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap");
 
 /* @font-face {
   font-family: "PP Mori";
@@ -19,7 +19,6 @@ h6 {
   margin: 0
 } */
 
-
 :root {
   --header-height: 3rem;
 
@@ -30,12 +29,11 @@ h6 {
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --container-color: #fbfbfd;
-  --container-color-hover: #f0F0F2;
+  --container-color-hover: #f0f0f2;
   --text-color: #030302;
   --body-color: #fbfbfd;
   --primary2: #9786c6;
   --primary: #664ea6;
-
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
@@ -187,7 +185,7 @@ img {
   text-transform: uppercase;
 
   &::before {
-    content: '\</>';
+    content: "\</>";
     margin-right: 14px;
     font-size: var(--h2-font-size);
     color: var(--text-color);
@@ -209,8 +207,6 @@ img {
 
 /*=============== LAYOUT ===============*/
 
-
-
 .container {
   max-width: 992px;
   margin-left: auto;
@@ -219,22 +215,6 @@ img {
 
 .grid {
   display: grid;
-}
-
-.container2 {
-  padding: 1rem 2rem;
-}
-
-.grid2 {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.grid2__item {
-  flex-grow: 1;
-  flex-shrink: 0;
-  width: 100%;
-  padding: 1rem;
 }
 
 /*=============== BUTTONS ===============*/
@@ -274,17 +254,5 @@ img {
   .button__icon {
     width: 22px;
     height: 22px;
-  }
-}
-
-@media screen and (min-width:750px) {
-  .container2 {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem;
-  }
-
-  .grid2__item {
-    max-width: 50%;
   }
 }

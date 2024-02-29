@@ -1,6 +1,6 @@
-import "./lastprojects.css";
+import { Data } from "../../constants/index";
 import WorkItems from "../work/WorkItems";
-import { Data } from "../projects/DataProjects";
+import "./lastprojects.css";
 
 const LastProjects = () => {
   return (

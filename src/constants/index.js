@@ -1,9 +1,9 @@
 import Image1 from "../assets/nextjs2.webp";
-import Image2 from "../assets/squeezeEvents.webp";
 import Image3 from "../assets/projetASTRO.webp";
 import Image4 from "../assets/projetCV.webp";
 import Image5 from "../assets/projetQRCODE.webp";
-import Image6 from "../assets/githubScraper.webp";
+import Image7 from "../assets/projetSass.webp";
+import Image2 from "../assets/squeezeEvents.webp";
 
 export const navLinks = [
   {
@@ -61,12 +61,13 @@ export const Data = [
   },
   {
     id: 2,
-    image: Image6,
-    title: "My Github Repo Scraper",
+    image: Image7,
+    title: "Full Stack Next.JS 14 | Mon projet de création d'un SaaS",
+    alt: "Image du Projet SaaS",
     category: "application web",
-    alt: "Image du Projet Github Scraper",
-    description: "Projet de création d'un site pour scrapper des repos Github.",
-    repo: "https://github.com/drondiodev/GithubScraper",
+    description:
+      "Création from scratch, d'un SaaS, en utilisant Next.JS 14, TailwindCSS, Shadcn-UI, TypeScript, Supabase et Stripe.",
+    repo: "https://github.com/drondiodev/",
   },
   {
     id: 3,
@@ -107,5 +108,3 @@ export const Data = [
     repo: "https://github.com/drondiodev/QR-code-component",
   },
 ];
-
-
