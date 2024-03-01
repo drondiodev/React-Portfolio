@@ -16,7 +16,7 @@ const Header = () => {
       </a>
       <nav className="nav container">
         <a href="/" title="Retour à l'accueil" className="nav__logo">
-          <span>&#123;D&#125;</span>rondio<span>dev</span>
+          <span>&#123;D&#125;</span>rondio<span>dev</span>.studio
         </a>
         <div className={`nav__menu ${showMenu ? "show-menu" : ""}`}>
           <ul className="nav__list grid">

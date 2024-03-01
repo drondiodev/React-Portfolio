@@ -1,5 +1,5 @@
-import "./about.css";
 import Photo from "../../assets/photo.webp";
+import "./about.css";
 import Info from "./info";
 
 const CV_URL = "src/assets/CV.pdf";
@@ -19,7 +19,7 @@ const About = () => {
         <Info />
       </div>
       <div>
-        <div className="skills__box">
+        {/* <div className="skills__box">
           <i
             className="uil uil-file-download-alt skills__icon"
             id="icone-telechargement"
@@ -36,7 +36,7 @@ const About = () => {
               Téléchargez mon CV en français ici
             </a>
           </p>
-        </div>
+        </div> */}
       </div>
     </section>
   );
