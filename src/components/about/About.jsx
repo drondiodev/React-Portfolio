@@ -2,7 +2,7 @@ import Photo from "../../assets/photo.webp";
 import "./about.css";
 import Info from "./info";
 
-const CV_URL = "src/assets/CV.pdf";
+const CV_URL = "https://github.com/drondiodev/drondiodev/blob/main/assets/CV.pdf";
 
 const About = () => {
   return (
@@ -29,7 +29,7 @@ const About = () => {
             <a
               href={CV_URL}
               target="_blank"
-              download="CV-David-Rondio"
+              download={"CV"}
               rel="noopener noreferrer"
               aria-labelledby="icone-telechargement texte-telechargement"
             >
