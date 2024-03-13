@@ -6,7 +6,7 @@ const Footer = () => {
     <footer role="contentinfo" className="footer">
       <nav className="footer__container container" role="navigation">
         <h2 className="footer__title">
-          <span>&#123;D&#125;</span>rondio<span>dev</span>
+          <span>&#123;D&#125;</span>rondio<span>dev</span>.studio
         </h2>
         <h3 className="footer__subtitle">
           Développeur <span>Web</span>

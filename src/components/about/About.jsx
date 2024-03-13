@@ -19,7 +19,7 @@ const About = () => {
         <Info />
       </div>
       <div>
-        {/* <div className="skills__box">
+        <div className="skills__box">
           <i
             className="uil uil-file-download-alt skills__icon"
             id="icone-telechargement"
@@ -28,15 +28,15 @@ const About = () => {
           <p className="skills__name active-link" id="texte-telechargement">
             <a
               href={CV_URL}
-              tabIndex="0"
+              target="_blank"
               download="CV-David-Rondio"
               rel="noopener noreferrer"
               aria-labelledby="icone-telechargement texte-telechargement"
             >
-              Téléchargez mon CV en français ici
+              Mon CV
             </a>
           </p>
-        </div> */}
+        </div>
       </div>
     </section>
   );
